@@ -1,0 +1,23 @@
+#Display{
+    -fx-text-fill: white;
+    -fx-background-color: black;
+}
+Button{
+    -fx-background-color: white;
+    -fx-border-color: gray;
+    -fx-border-width: 0.1px;
+    -fx-text-fill: black;
+    -fx-font-size: 20px;
+}
+Button:focused{
+    -fx-translate-x: 0.5;
+    -fx-translate-y: 0.5;
+}
+
+#Button_plus, #Button_min, #Button_del, #Button_mult, #Button_eql{
+    -fx-background-color: #ffb200;
+}
+
+#Button_clear, #Button_sqrt{
+    -fx-background-color: #d1d1d1;
+}
